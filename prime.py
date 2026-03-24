@@ -23,7 +23,7 @@ def prime_range():
             ctr += 1
     t2 = time.perf_counter()
     print(f'the time taken is: {t2 - t1:0.6f}')
-    print(f'the numner of primes under {n} is:',ctr)
+    print(f'the numner of primes under {n} is:{ctr}')
     print(all_prime)
 
 
